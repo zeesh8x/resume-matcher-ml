@@ -3,8 +3,7 @@
 from sentence_transformers import SentenceTransformer, util
 
 # Load pre-trained model (downloads first time)
-model = SentenceTransformer('all-mpnet-base-v2')
-
+model = SentenceTransformer('paraphrase-MiniLM-L6-v2') 
 
 def calculate_similarity(text1, text2):
     # Create embeddings
