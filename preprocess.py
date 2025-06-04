@@ -22,7 +22,7 @@ def load_spacy_model():
 
 nlp = load_spacy_model()
 
-def preprocess(text):
+def preprocesss(text):
     # Lowercase and remove non-alphabetic characters
     text = text.lower()
     text = re.sub(r"[^a-z\s]", "", text)
