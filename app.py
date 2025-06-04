@@ -5,6 +5,12 @@ from parser import extract_text_from_pdf
 from preprocess import preprocess
 from similarity import calculate_similarity
 from keyword_matcher import keyword_match
+import subprocess
+import importlib.util
+
+
+if importlib.util.find_spec("en_core_web_sm") is None:
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
 
 st.set_page_config(page_title="Resume Matcher", page_icon="📝", layout="wide")
 st.title("📝 Resume Matcher")
