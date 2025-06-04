@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from parser import extract_text_from_pdf
-from preprocess import preprocesss
+from preprocess import preprocess
 from similarity import calculate_similarity
 from keyword_matcher import keyword_match
 
