@@ -26,15 +26,14 @@ A smart, ML-powered resume matcher that compares your resume to a job descriptio
 
 ## 🖼️ Screenshots
 
-| Resume Upload & Job Description Input | Visual Analysis |
-|--------------------------------------|-----------------|
-| ![upload](screenshots/1.png)    |    |
-| ![upload](screenshots/2.png)    |    |
-| ![upload](screenshots/3.png)    |    |
-| ![upload](screenshots/4.png)    |    |
-| ![upload](screenshots/5.png)    |    |
+| Resume Upload & Job Description Input | 
+|--------------------------------------|
+| ![Step 1](5.png)                      |
+| ![Step 2](4.png)                      |
+| ![Step 3](3.png)                      |                 
+| ![Charts](2.png)                      |                 
+| ![Improvement Tips](1.png)                      |                 
 
-> Place your screenshots in a `screenshots/` folder and update paths above if different.
 
 ---
 
